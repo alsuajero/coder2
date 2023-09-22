@@ -63,6 +63,21 @@ h1 {
 .voluntariadoimg{
   display: flex;
   justify-content:space-between;
+  grid-template-rows: auto auto;
+  margin-left: auto;
+}
+/*Baño*/
+div.contenedorBaño{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Baño{
+  display: flex;
+  flex-direction: column;
+}
+.descripcion{
+  text-align: center;
 }
 /*footer*/
 .footer {
