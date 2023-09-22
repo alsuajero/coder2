@@ -1,0 +1,45 @@
+/*menu de navegacion*/
+nav.navegacion {
+  display: flex;
+  background: rgb(46, 133, 29);
+  border-bottom: 5px solid rgb(75, 255, 75);
+  padding-left: 0;
+
+}
+
+.item {
+  list-style: none;
+  margin: 1px 10px;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+li:hover {
+  background: rgb(192, 243, 188);
+}
+
+/*logo de la pagina*/
+.logo {
+  height: 5%;
+  width: 5%;
+}
+
+/*titulo*/
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+/*footer*/
+.footer {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logofooter {
+  height: 12%;
+  width: 12%;
+}
