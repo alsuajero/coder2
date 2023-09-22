@@ -52,8 +52,21 @@ h1 {
   display: grid;
   grid-template-columns:auto auto auto auto;
   grid-template-rows: auto auto;
-  margin-left: auto;}
-  
+  margin-left: auto;
+}
+/*Baño*/
+div.contenedorBaño{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Baño{
+  display: flex;
+  flex-direction: column;
+}
+.descripcion{
+  text-align: center;
+}
 /*footer*/
 .footer {
   justify-content: space-around;
