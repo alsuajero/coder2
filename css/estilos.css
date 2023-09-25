@@ -42,22 +42,21 @@ h1 {
   font-size: 50px;
 }
 /*bolsas y laminas*/
-.bolsas{
-  display: grid;
-  grid-template-columns:auto;
-  grid-template-rows: auto;
-  margin-left: auto;
+div.bolsas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .precios{
   text-align: center;
   color: rgb(14, 133, 14);
 }
 /*envases*/
-.envases{
-  display: grid;
-  grid-template-columns:auto auto auto auto;
-  grid-template-rows: auto auto auto auto;
-  margin-left: auto;}
+div.contenedorEnvases{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /*voluntariado*/
 .voluntariadoimg{
   display: flex;
@@ -70,10 +69,6 @@ div.contenedorBaño{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-.Baño{
-  display: flex;
-  flex-direction: column;
 }
 .descripcion{
   text-align: center;
@@ -131,15 +126,10 @@ div.contenedorBaño{
     width: 6%;
     height: 6%;
   }
-  /*bolsas y laminas*/
-  .bolsas{
-    display: grid;
-    grid-template-columns:auto auto auto auto ;
-    grid-template-rows: auto auto auto auto auto auto;
-    margin-left: auto;
-  }
-  .precios{
-    text-align: center;
-    color: rgb(14, 133, 14);
+  /*envases*/
+  div.contenedorEnvases{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
