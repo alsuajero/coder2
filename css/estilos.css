@@ -41,8 +41,8 @@ h1 {
   text-align: center;
   font-size: 50px;
 }
-/*bolsas y laminas*/
-div.bolsas{
+/*bolsas y laminas, Envases, Linea Baño*/
+div.contenedorEnvases, div.contenedorBaño, div.BolsasYLaminas{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -51,28 +51,15 @@ div.bolsas{
   text-align: center;
   color: rgb(14, 133, 14);
 }
-/*envases*/
-div.contenedorEnvases{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.descripcion{
+  text-align: center;
 }
 /*voluntariado*/
 .voluntariadoimg{
   display: flex;
-  justify-content:space-between;
-  grid-template-rows: auto auto;
-  margin-left: auto;
-}
-/*Baño*/
-div.contenedorBaño{
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
-.descripcion{
-  text-align: center;
-}
+
 /*footer*/
 .footer {
   justify-content: space-around;
@@ -126,10 +113,8 @@ div.contenedorBaño{
     width: 6%;
     height: 6%;
   }
-  /*envases*/
-  div.contenedorEnvases{
-    display: flex;
-    flex-wrap: wrap;
+  /*bolsas y laminas, Envases, Linea Baño*/
+  div.contenedorEnvases, div.contenedorBaño, div.BolsasYLaminas{
     justify-content: space-between;
   }
 }
